@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE302E1A2B5A5888003B55B0 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = DE302E192B5A5888003B55B0 /* Lottie */; };
+		DE302E1C2B5A5963003B55B0 /* push.json in Resources */ = {isa = PBXBuildFile; fileRef = DE302E1B2B5A5963003B55B0 /* push.json */; };
+		DE302E1F2B5A5C16003B55B0 /* StepperView in Frameworks */ = {isa = PBXBuildFile; productRef = DE302E1E2B5A5C16003B55B0 /* StepperView */; };
+		DE302E212B5A5DC7003B55B0 /* StepperView in Frameworks */ = {isa = PBXBuildFile; productRef = DE302E202B5A5DC7003B55B0 /* StepperView */; };
 		DEC3E86C2B594E1B00944DCD /* PushNotificationTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3E86B2B594E1B00944DCD /* PushNotificationTutorialApp.swift */; };
 		DEC3E86E2B594E1B00944DCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3E86D2B594E1B00944DCD /* ContentView.swift */; };
 		DEC3E8702B594E1C00944DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEC3E86F2B594E1C00944DCD /* Assets.xcassets */; };
@@ -14,11 +18,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE302E1B2B5A5963003B55B0 /* push.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = push.json; sourceTree = "<group>"; };
 		DEC3E8682B594E1B00944DCD /* PushNotificationTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNotificationTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEC3E86B2B594E1B00944DCD /* PushNotificationTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationTutorialApp.swift; sourceTree = "<group>"; };
 		DEC3E86D2B594E1B00944DCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEC3E86F2B594E1C00944DCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEC3E8722B594E1C00944DCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DECD53F52B5DDB8F00DAD26E /* PushNotificationTutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushNotificationTutorial.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +32,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE302E212B5A5DC7003B55B0 /* StepperView in Frameworks */,
+				DE302E1A2B5A5888003B55B0 /* Lottie in Frameworks */,
+				DE302E1F2B5A5C16003B55B0 /* StepperView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +60,8 @@
 		DEC3E86A2B594E1B00944DCD /* PushNotificationTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				DECD53F52B5DDB8F00DAD26E /* PushNotificationTutorial.entitlements */,
+				DE302E1B2B5A5963003B55B0 /* push.json */,
 				DEC3E86B2B594E1B00944DCD /* PushNotificationTutorialApp.swift */,
 				DEC3E86D2B594E1B00944DCD /* ContentView.swift */,
 				DEC3E86F2B594E1C00944DCD /* Assets.xcassets */,
@@ -83,6 +94,11 @@
 			dependencies = (
 			);
 			name = PushNotificationTutorial;
+			packageProductDependencies = (
+				DE302E192B5A5888003B55B0 /* Lottie */,
+				DE302E1E2B5A5C16003B55B0 /* StepperView */,
+				DE302E202B5A5DC7003B55B0 /* StepperView */,
+			);
 			productName = PushNotificationTutorial;
 			productReference = DEC3E8682B594E1B00944DCD /* PushNotificationTutorial.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +127,10 @@
 				Base,
 			);
 			mainGroup = DEC3E85F2B594E1B00944DCD;
+			packageReferences = (
+				DE302E182B5A5888003B55B0 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				DE302E1D2B5A5C16003B55B0 /* XCRemoteSwiftPackageReference "StepperView" */,
+			);
 			productRefGroup = DEC3E8692B594E1B00944DCD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEC3E8732B594E1C00944DCD /* Preview Assets.xcassets in Resources */,
+				DE302E1C2B5A5963003B55B0 /* push.json in Resources */,
 				DEC3E8702B594E1C00944DCD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PushNotificationTutorial/PushNotificationTutorial.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PushNotificationTutorial/Preview Content\"";
@@ -298,6 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PushNotificationTutorial/PushNotificationTutorial.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PushNotificationTutorial/Preview Content\"";
@@ -344,6 +367,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE302E182B5A5888003B55B0 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.4;
+			};
+		};
+		DE302E1D2B5A5C16003B55B0 /* XCRemoteSwiftPackageReference "StepperView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/badrinathvm/StepperView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE302E192B5A5888003B55B0 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE302E182B5A5888003B55B0 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		DE302E1E2B5A5C16003B55B0 /* StepperView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE302E1D2B5A5C16003B55B0 /* XCRemoteSwiftPackageReference "StepperView" */;
+			productName = StepperView;
+		};
+		DE302E202B5A5DC7003B55B0 /* StepperView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE302E1D2B5A5C16003B55B0 /* XCRemoteSwiftPackageReference "StepperView" */;
+			productName = StepperView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DEC3E8602B594E1B00944DCD /* Project object */;
 }
