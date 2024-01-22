@@ -36,7 +36,7 @@ do {
 ```
 
 ## 3. Xcode Push Notifications Capabilities
-Xcode içerisinden, Push Notifications özelliğinin etkinleştirilmesi.
+Xcode içerisinden Push Notifications özelliğinin etkinleştirilmesi.
 
 ## 4. Certificates, IDs & Profiles Konfigürasyonu
 Apple Developer Portal üzerinde development ve production ortamları için APN's oluşturulması.
