@@ -5,6 +5,9 @@
 
 SwitUI ile Push Notifications Console üzerinden bildirim göndermek için aşağıdaki 5 adımı takip edebilirsiniz.
 
+[<img src="https://yourimageshare.com/ib/JrjY5c9682.webp">](https://youtu.be/PApWa3xhjsk "SwiftUI Push Notifications")
+
+
 ## 1. Cihazın Token Bilgisini Öğrenmek
 
 ```swift
